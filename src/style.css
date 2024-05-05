@@ -1,0 +1,141 @@
+body {
+    background-image: url("imagenes/Fondo-Fondo.png");
+    height: 100vh;
+    width: 100vw;
+    
+     /*overflow: hidden;*/
+
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.se2 {
+    position: absolute;
+    left: 10%;
+}
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+.position {
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider {
+    background-image: url("imagenes/Seccion3/Seccion3P1.png");
+    background-size: cover;
+    height: 70%;
+    width: 50%;
+    border-radius: 20px;
+    animation: animate 10s infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url("imagenes/Seccion3/Seccion3P1.png");
+        background-size: cover;
+    }
+
+    16.666% {
+        background-image: url("imagenes/Seccion3/Seccion3P6.png");
+        background-size: cover;
+    }
+    33.333% {
+        background-image: url("imagenes/Seccion3/Seccion3P5.png");
+        background-size: cover;
+    }
+    49.999% {
+        background-image: url("imagenes/Seccion3/Seccion3P4.png");
+        background-size: cover;
+    }
+    66.666% {
+        background-image: url("imagenes/Seccion3/Seccion3P3.png");
+        background-size: cover;
+    }
+    83.333% {
+        background-image: url("imagenes/Seccion3/Seccion3P2.png");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("imagenes/Seccion3/Seccion3P1.png");
+        background-size: cover;
+    }
+}
+
+
+.position2 {
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider2 {
+    background-image: url("imagenes/Seccion4/ArbolColor.png");
+    background-size: cover;
+    height: 80%;
+    width: 50%;
+    border-radius: 20px;
+    animation: animate2 30s infinite;
+}
+
+
+@keyframes animate2 {
+    0% {
+        background-image: url("imagenes/Seccion4/Montaje.png");
+        background-size: cover;
+    }
+
+    16.666% {
+        background-image: url("imagenes/Seccion4/GifSeccion-4.gif");
+        background-size: cover;
+    }
+    33.333% {
+        background-image: url("imagenes/Seccion4/California-Revisión.png");
+        background-size: cover;
+    }
+    49.999% {
+        background-image: url("imagenes/Seccion4/Barco2.png");
+        background-size: cover;
+    }
+    66.666% {
+        background-image: url("imagenes/Seccion4/Barco1.png");
+        background-size: cover;
+    }
+    83.333% {
+        background-image: url("imagenes/Seccion4/ArbolColor.png");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("imagenes/Seccion4/Montaje.png");
+        background-size: cover;
+    }
+}
+
+.sec5 {
+    position: absolute;
+    top: 330%;
+    left: 4%;
+}
+
+.trabajo {
+    position: absolute;
+    top: 400%;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+
+    background-color: aqua;
+}
